@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Home"
+          android:id="@+id/Home"
+          android:icon="@drawable/ic_home_24dp"/>
+
+    <item android:title="Send Email"
+          android:id="@+id/mail"
+          android:icon="@drawable/ic_email_24dp"/>
+
+    <item android:title="Complaints"
+          android:id="@+id/complaints"
+          android:icon="@drawable/draft"/>
+
+
+
+
+    <group android:id="@+id/group_settings_id">
+
+        <item
+            android:id="@+id/AboutUs"
+            android:title="About Us" />
+        <item
+            android:id="@+id/Help"
+            android:title="Help" />
+
+    </group>
+
+
+</menu>
